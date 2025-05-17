@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply text-gray-800;
+}
+
+/* Animation for language and category cards */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to cards */
+.grid > * {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+/* Stagger the animation for grid items */
+.grid > *:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.grid > *:nth-child(2) {
+    animation-delay: 0.15s;
+}
+.grid > *:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.grid > *:nth-child(4) {
+    animation-delay: 0.25s;
+}
+.grid > *:nth-child(5) {
+    animation-delay: 0.3s;
+}
+.grid > *:nth-child(6) {
+    animation-delay: 0.35s;
+}
+.grid > *:nth-child(7) {
+    animation-delay: 0.4s;
+}
+.grid > *:nth-child(8) {
+    animation-delay: 0.45s;
+}
+.grid > *:nth-child(9) {
+    animation-delay: 0.5s;
+}
+.grid > *:nth-child(10) {
+    animation-delay: 0.55s;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+a {
+    @apply transition-all duration-200;
+}
+
+/* Tight line heights for better text display */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply leading-tight font-medium;
+}
