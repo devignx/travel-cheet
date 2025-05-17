@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         useAppContext();
 
     // Determine title based on selection state
-    let title = "TravelTalk Sheets";
+    let title = "Travel Cheet";
     if (selectedLanguage && selectedCategory) {
         title = selectedCategory.name;
     } else if (selectedLanguage) {
@@ -27,8 +27,16 @@ const Header: React.FC = () => {
                     </button>
                 ) : null}
 
-                <h1 className="text-xl p-3 font-bold text-center w-full">
+                <h1 className="text-xl p-2 font-bold text-center w-full">
                     {title}
+                    {!selectedLanguage && !selectedCategory && (
+                        <>
+                            <br />
+                            <span className="text-gray-500 text-xs">
+                                Your INTL travel Cheat Sheet
+                            </span>
+                        </>
+                    )}
                 </h1>
 
                 {selectedLanguage || selectedCategory ? (

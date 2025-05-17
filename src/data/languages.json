@@ -79,6 +79,62 @@
             "flag": "🇵🇹",
             "direction": "ltr",
             "usesRomanization": false
+        },
+        {
+            "code": "tr",
+            "name": "Turkish",
+            "nativeName": "Türkçe",
+            "flag": "🇹🇷",
+            "direction": "ltr",
+            "usesRomanization": true
+        },
+        {
+            "code": "ko",
+            "name": "Korean",
+            "nativeName": "한국어",
+            "flag": "🇰🇷",
+            "direction": "ltr",
+            "usesRomanization": true
+        },
+        {
+            "code": "pl",
+            "name": "Polish",
+            "nativeName": "Polski",
+            "flag": "🇵🇱",
+            "direction": "ltr",
+            "usesRomanization": false
+        },
+        {
+            "code": "sv",
+            "name": "Swedish",
+            "nativeName": "Svenska",
+            "flag": "🇸🇪",
+            "direction": "ltr",
+            "usesRomanization": false
+        },
+        {
+            "code": "nl",
+            "name": "Dutch",
+            "nativeName": "Nederlands",
+            "flag": "🇳🇱",
+            "direction": "ltr",
+            "usesRomanization": false
+        },
+        {
+            "code": "id",
+            "name": "Indonesian",
+            "nativeName": "Bahasa Indonesia",
+            "flag": "🇮🇩",
+            "direction": "ltr",
+            "usesRomanization": false
+        },
+        {
+            "code": "vi",
+            "name": "Vietnamese",
+            "nativeName": "Tiếng Việt",
+            "flag": "🇻🇳",
+            "direction": "ltr",
+            "usesRomanization": true
         }
     ],
     "categories": [
@@ -2161,6 +2217,1427 @@
                     "phrase": "Onde fica o banco mais próximo?",
                     "translation": "Where is the nearest bank?",
                     "pronunciation": "onde fica o banco mais próximo?"
+                }
+            ]
+        },
+
+        "tr": {
+            "arrival": [
+                {
+                    "id": "tr-arr-1",
+                    "phrase": "Taksi/otobüs/tren istasyonu nerede?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "taksi/otobüs/tren istasyonu nerede?"
+                },
+                {
+                    "id": "tr-arr-2",
+                    "phrase": "...'ya bir bilet ne kadar?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "...'ya bir bilet ne kadar?"
+                },
+                {
+                    "id": "tr-arr-3",
+                    "phrase": "...'ya gitmem gerek.",
+                    "translation": "I need to go to...",
+                    "pronunciation": "...'ya gitmem gerek."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "tr-acc-1",
+                    "phrase": "...adına bir rezervasyonum var.",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "...adına bir rezervasyonum var."
+                },
+                {
+                    "id": "tr-acc-2",
+                    "phrase": "Odayı görebilir miyim?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "odayı görebilir miyim?"
+                },
+                {
+                    "id": "tr-acc-3",
+                    "phrase": "Kahvaltı saat kaçta?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "kahvaltı saat kaçta?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "tr-din-1",
+                    "phrase": "Ben vejetaryenim.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "ben vejetaryenim."
+                },
+                {
+                    "id": "tr-din-2",
+                    "phrase": "Ne tavsiye edersiniz?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "ne tavsiye edersiniz?"
+                },
+                {
+                    "id": "tr-din-3",
+                    "phrase": "Hesabı alabilir miyim lütfen?",
+                    "translation": "The bill, please",
+                    "pronunciation": "hesabı alabilir miyim lütfen?"
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "tr-sho-1",
+                    "phrase": "Bu ne kadar?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "bu ne kadar?"
+                },
+                {
+                    "id": "tr-sho-2",
+                    "phrase": "Bunun başka bedeni var mı?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "bunun başka bedeni var mı?"
+                },
+                {
+                    "id": "tr-sho-3",
+                    "phrase": "Kredi kartıyla ödeyebilir miyim?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "kredi kartıyla ödeyebilir miyim?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "tr-eme-1",
+                    "phrase": "Yardıma ihtiyacım var.",
+                    "translation": "I need help",
+                    "pronunciation": "yardıma ihtiyacım var."
+                },
+                {
+                    "id": "tr-eme-2",
+                    "phrase": "Polisi arayın.",
+                    "translation": "Call the police",
+                    "pronunciation": "polisi arayın."
+                },
+                {
+                    "id": "tr-eme-3",
+                    "phrase": "Hastane nerede?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "hastane nerede?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "tr-dir-1",
+                    "phrase": "En yakın ATM nerede?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "en yakın ATM nerede?"
+                },
+                {
+                    "id": "tr-dir-2",
+                    "phrase": "Havaalanına nasıl gidebilirim?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "havaalanına nasıl gidebilirim?"
+                },
+                {
+                    "id": "tr-dir-3",
+                    "phrase": "Burası uzak mı?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "burası uzak mı?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "tr-soc-1",
+                    "phrase": "Merhaba.",
+                    "translation": "Hello",
+                    "pronunciation": "merhaba."
+                },
+                {
+                    "id": "tr-soc-2",
+                    "phrase": "Nasılsınız?",
+                    "translation": "How are you?",
+                    "pronunciation": "nasılsınız?"
+                },
+                {
+                    "id": "tr-soc-3",
+                    "phrase": "Tanıştığıma memnun oldum.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "tanıştığıma memnun oldum."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "tr-tec-1",
+                    "phrase": "Wi-Fi'niz var mı?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "vayfayınız var mı?"
+                },
+                {
+                    "id": "tr-tec-2",
+                    "phrase": "Wi-Fi şifresi ne?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "vayfay şifresi ne?"
+                },
+                {
+                    "id": "tr-tec-3",
+                    "phrase": "Telefonum çalışmıyor.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "telefonum çalışmıyor."
+                }
+            ],
+            "health": [
+                {
+                    "id": "tr-hea-1",
+                    "phrase": "Kendimi iyi hissetmiyorum.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "kendimi iyi hissetmiyorum."
+                },
+                {
+                    "id": "tr-hea-2",
+                    "phrase": "Bir doktora ihtiyacım var.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "bir doktora ihtiyacım var."
+                },
+                {
+                    "id": "tr-hea-3",
+                    "phrase": "Eczane nerede?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "eczane nerede?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "tr-mon-1",
+                    "phrase": "Nerede döviz bozdurabilirim?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "nerede döviz bozdurabilirim?"
+                },
+                {
+                    "id": "tr-mon-2",
+                    "phrase": "Kredi kartı kullanabilir miyim?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "kredi kartı kullanabilir miyim?"
+                },
+                {
+                    "id": "tr-mon-3",
+                    "phrase": "En yakın banka nerede?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "en yakın banka nerede?"
+                }
+            ]
+        },
+
+        "ko": {
+            "arrival": [
+                {
+                    "id": "ko-arr-1",
+                    "phrase": "택시/버스/기차역은 어디에 있습니까?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "taeksi/beoseu/gichayeogeun eodie itseumnikka?"
+                },
+                {
+                    "id": "ko-arr-2",
+                    "phrase": "...까지 가는 표는 얼마입니까?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "...kkaji ganeun pyoneun eolmaimnikka?"
+                },
+                {
+                    "id": "ko-arr-3",
+                    "phrase": "...에 가야 합니다.",
+                    "translation": "I need to go to...",
+                    "pronunciation": "...e gaya hamnida."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "ko-acc-1",
+                    "phrase": "...이름으로 예약했습니다.",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "...ireumeuro yeyakhaetseumnida."
+                },
+                {
+                    "id": "ko-acc-2",
+                    "phrase": "방을 볼 수 있을까요?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "bangeul bol su isseulkkayo?"
+                },
+                {
+                    "id": "ko-acc-3",
+                    "phrase": "아침 식사는 몇 시입니까?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "achim siksaneun myeot siimnikka?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "ko-din-1",
+                    "phrase": "저는 채식주의자입니다.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "jeoneun chaesikjuuijaimnida."
+                },
+                {
+                    "id": "ko-din-2",
+                    "phrase": "무엇을 추천하시겠습니까?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "mueoseul chucheonhasigetseumnikka?"
+                },
+                {
+                    "id": "ko-din-3",
+                    "phrase": "계산서 부탁드립니다.",
+                    "translation": "The bill, please",
+                    "pronunciation": "gyesanseo butak드립니다."
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "ko-sho-1",
+                    "phrase": "이것은 얼마입니까?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "igeoseun eolmaimnikka?"
+                },
+                {
+                    "id": "ko-sho-2",
+                    "phrase": "다른 사이즈가 있습니까?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "dareun saijeuga itseumnikka?"
+                },
+                {
+                    "id": "ko-sho-3",
+                    "phrase": "카드로 결제할 수 있습니까?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "kadeuro gyeoljehal su itseumnikka?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "ko-eme-1",
+                    "phrase": "도와주세요.",
+                    "translation": "I need help",
+                    "pronunciation": "dowajuseyo."
+                },
+                {
+                    "id": "ko-eme-2",
+                    "phrase": "경찰에 전화해 주세요.",
+                    "translation": "Call the police",
+                    "pronunciation": "gyeongchare jeonhwahae juseyo."
+                },
+                {
+                    "id": "ko-eme-3",
+                    "phrase": "병원은 어디에 있습니까?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "byeongwoneun eodie itseumnikka?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "ko-dir-1",
+                    "phrase": "가장 가까운 ATM은 어디에 있습니까?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "gajang gakkaun ATMeun eodie itseumnikka?"
+                },
+                {
+                    "id": "ko-dir-2",
+                    "phrase": "공항에 어떻게 가야 합니까?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "gonghange eotteoke gaya hamnikka?"
+                },
+                {
+                    "id": "ko-dir-3",
+                    "phrase": "여기에서 멀리 떨어져 있습니까?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "yeogieoseo meolli tteoreojyeo itseumnikka?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "ko-soc-1",
+                    "phrase": "안녕하세요.",
+                    "translation": "Hello",
+                    "pronunciation": "annyeonghaseyo."
+                },
+                {
+                    "id": "ko-soc-2",
+                    "phrase": "어떻게 지내세요?",
+                    "translation": "How are you?",
+                    "pronunciation": "eotteoke jinaeseyo?"
+                },
+                {
+                    "id": "ko-soc-3",
+                    "phrase": "만나서 반갑습니다.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "mannaseo bangapseumnida."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "ko-tec-1",
+                    "phrase": "와이파이 있습니까?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "waipa-i itseumnikka?"
+                },
+                {
+                    "id": "ko-tec-2",
+                    "phrase": "와이파이 비밀번호는 무엇입니까?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "waipa-i bimilbeonhoneun mueosimnikka?"
+                },
+                {
+                    "id": "ko-tec-3",
+                    "phrase": "제 전화기가 작동하지 않습니다.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "je jeonhwagiga jakdonghaji anseumnida."
+                }
+            ],
+            "health": [
+                {
+                    "id": "ko-hea-1",
+                    "phrase": "몸이 좋지 않습니다.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "momi jochi anseumnida."
+                },
+                {
+                    "id": "ko-hea-2",
+                    "phrase": "의사가 필요합니다.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "uisaga piryohamnida."
+                },
+                {
+                    "id": "ko-hea-3",
+                    "phrase": "약국은 어디에 있습니까?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "yakgugeun eodie itseumnikka?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "ko-mon-1",
+                    "phrase": "어디에서 환전할 수 있습니까?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "eodieseo hwanjeonhal su itseumnikka?"
+                },
+                {
+                    "id": "ko-mon-2",
+                    "phrase": "신용카드를 사용할 수 있습니까?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "sinyongkadeureul sayonghal su itseumnikka?"
+                },
+                {
+                    "id": "ko-mon-3",
+                    "phrase": "가장 가까운 은행은 어디에 있습니까?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "gajang gakkaun eunhaengeun eodie itseumnikka?"
+                }
+            ]
+        },
+
+        "pl": {
+            "arrival": [
+                {
+                    "id": "pl-arr-1",
+                    "phrase": "Gdzie jest postój taksówek/przystanek autobusowy/dworzec kolejowy?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "gzhyeh yest postoy taksoovek/pshistanek ahtobusovy/dvo-zhets koleyovy?"
+                },
+                {
+                    "id": "pl-arr-2",
+                    "phrase": "Ile kosztuje bilet do...?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "ee-leh koshtuye bi-let do...?"
+                },
+                {
+                    "id": "pl-arr-3",
+                    "phrase": "Muszę jechać do...",
+                    "translation": "I need to go to...",
+                    "pronunciation": "mushe yehahtch do..."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "pl-acc-1",
+                    "phrase": "Mam rezerwację na nazwisko...",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "mam rezerwatseye nah nazvisko..."
+                },
+                {
+                    "id": "pl-acc-2",
+                    "phrase": "Czy mogę zobaczyć pokój?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "chy mogeh zobahchytch pokoy?"
+                },
+                {
+                    "id": "pl-acc-3",
+                    "phrase": "O której jest śniadanie?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "o ktoyrey yest shnyadanye?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "pl-din-1",
+                    "phrase": "Jestem wegetarianinem/wegetarianką.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "yestem vegeta-ryan-eenem/vegeta-ryan-konk-oh."
+                },
+                {
+                    "id": "pl-din-2",
+                    "phrase": "Co Pan/Pani poleca?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "tso pan/pani poletsa?"
+                },
+                {
+                    "id": "pl-din-3",
+                    "phrase": "Poproszę rachunek.",
+                    "translation": "The bill, please",
+                    "pronunciation": "poproshe rahunek."
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "pl-sho-1",
+                    "phrase": "Ile to kosztuje?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "ee-leh to koshtuye?"
+                },
+                {
+                    "id": "pl-sho-2",
+                    "phrase": "Czy ma Pan/Pani to w innym rozmiarze?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "chy mah pan/pani to v innym rozmia-zheh?"
+                },
+                {
+                    "id": "pl-sho-3",
+                    "phrase": "Czy mogę zapłacić kartą?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "chy mogeh zaplahcheetch karton?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "pl-eme-1",
+                    "phrase": "Potrzebuję pomocy.",
+                    "translation": "I need help",
+                    "pronunciation": "potsh-ebu-yeh pomocy."
+                },
+                {
+                    "id": "pl-eme-2",
+                    "phrase": "Proszę zadzwonić na policję.",
+                    "translation": "Call the police",
+                    "pronunciation": "prosheh zadzvoneetch nah politseyeh."
+                },
+                {
+                    "id": "pl-eme-3",
+                    "phrase": "Gdzie jest szpital?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "gzhyeh yest shpital?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "pl-dir-1",
+                    "phrase": "Gdzie jest najbliższy bankomat?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "gzhyeh yest naybleezh-shy bankomat?"
+                },
+                {
+                    "id": "pl-dir-2",
+                    "phrase": "Jak dojadę na lotnisko?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "yak doyahdeh nah lotnisko?"
+                },
+                {
+                    "id": "pl-dir-3",
+                    "phrase": "Czy to daleko stąd?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "chy to daleko stont?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "pl-soc-1",
+                    "phrase": "Dzień dobry.",
+                    "translation": "Hello (Good day)",
+                    "pronunciation": "jyen dobry."
+                },
+                {
+                    "id": "pl-soc-2",
+                    "phrase": "Jak się Pan/Pani ma?",
+                    "translation": "How are you?",
+                    "pronunciation": "yak sheh pan/pani mah?"
+                },
+                {
+                    "id": "pl-soc-3",
+                    "phrase": "Miło mi Pana/Panią poznać.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "mee-woh mee pana/panyon poznat."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "pl-tec-1",
+                    "phrase": "Czy jest tu Wi-Fi?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "chy yest too wi-fi?"
+                },
+                {
+                    "id": "pl-tec-2",
+                    "phrase": "Jakie jest hasło do Wi-Fi?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "yakyeh yest has-woh do wi-fi?"
+                },
+                {
+                    "id": "pl-tec-3",
+                    "phrase": "Mój telefon nie działa.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "moy telefon nye dzyah-wah."
+                }
+            ],
+            "health": [
+                {
+                    "id": "pl-hea-1",
+                    "phrase": "Źle się czuję.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "zhleh sheh chujeh."
+                },
+                {
+                    "id": "pl-hea-2",
+                    "phrase": "Potrzebuję lekarza.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "potsh-ebu-yeh lekarza."
+                },
+                {
+                    "id": "pl-hea-3",
+                    "phrase": "Gdzie jest apteka?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "gzhyeh yest apteka?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "pl-mon-1",
+                    "phrase": "Gdzie mogę wymienić pieniądze?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "gzhyeh mogeh vye-myehneetch pyenyondzeh?"
+                },
+                {
+                    "id": "pl-mon-2",
+                    "phrase": "Czy mogę zapłacić kartą kredytową?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "chy mogeh zaplahcheetch karton kredytovon?"
+                },
+                {
+                    "id": "pl-mon-3",
+                    "phrase": "Gdzie jest najbliższy bank?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "gzhyeh yest naybleezh-shy bank?"
+                }
+            ]
+        },
+
+        "sv": {
+            "arrival": [
+                {
+                    "id": "sv-arr-1",
+                    "phrase": "Var är taxi-/buss-/tågstationen?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "var är taxi/buss/tog-stationen?"
+                },
+                {
+                    "id": "sv-arr-2",
+                    "phrase": "Hur mycket kostar en biljett till...?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "hur mycket kostar en biljett till...?"
+                },
+                {
+                    "id": "sv-arr-3",
+                    "phrase": "Jag behöver åka till...",
+                    "translation": "I need to go to...",
+                    "pronunciation": "jag behöver oka till..."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "sv-acc-1",
+                    "phrase": "Jag har en reservation i namnet...",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "jag har en reservation i namnet..."
+                },
+                {
+                    "id": "sv-acc-2",
+                    "phrase": "Kan jag få se rummet?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "kan jag fo se rummet?"
+                },
+                {
+                    "id": "sv-acc-3",
+                    "phrase": "Vilken tid är frukosten?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "vilken tid är frukosten?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "sv-din-1",
+                    "phrase": "Jag är vegetarian.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "jag är vegetarian."
+                },
+                {
+                    "id": "sv-din-2",
+                    "phrase": "Vad rekommenderar ni?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "vad rekommenderar ni?"
+                },
+                {
+                    "id": "sv-din-3",
+                    "phrase": "Kan jag få notan, tack?",
+                    "translation": "The bill, please",
+                    "pronunciation": "kan jag fo notan, tack?"
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "sv-sho-1",
+                    "phrase": "Hur mycket kostar det här?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "hur mycket kostar de här?"
+                },
+                {
+                    "id": "sv-sho-2",
+                    "phrase": "Har ni den här i en annan storlek?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "har ni den här i en annan storlek?"
+                },
+                {
+                    "id": "sv-sho-3",
+                    "phrase": "Kan jag betala med kort?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "kan jag betala med kort?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "sv-eme-1",
+                    "phrase": "Jag behöver hjälp.",
+                    "translation": "I need help",
+                    "pronunciation": "jag behöver hjälp."
+                },
+                {
+                    "id": "sv-eme-2",
+                    "phrase": "Ring polisen.",
+                    "translation": "Call the police",
+                    "pronunciation": "ring polisen."
+                },
+                {
+                    "id": "sv-eme-3",
+                    "phrase": "Var ligger sjukhuset?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "var ligger sjukhuset?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "sv-dir-1",
+                    "phrase": "Var ligger närmaste bankomat?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "var ligger närmaste bankomat?"
+                },
+                {
+                    "id": "sv-dir-2",
+                    "phrase": "Hur tar jag mig till flygplatsen?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "hur tar jag mej till flygplatsen?"
+                },
+                {
+                    "id": "sv-dir-3",
+                    "phrase": "Är det långt härifrån?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "är det långt härifrån?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "sv-soc-1",
+                    "phrase": "Hej.",
+                    "translation": "Hello",
+                    "pronunciation": "hej."
+                },
+                {
+                    "id": "sv-soc-2",
+                    "phrase": "Hur mår du?",
+                    "translation": "How are you?",
+                    "pronunciation": "hur mor du?"
+                },
+                {
+                    "id": "sv-soc-3",
+                    "phrase": "Trevligt att träffas.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "trevligt att träffas."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "sv-tec-1",
+                    "phrase": "Har ni Wi-Fi?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "har ni waifai?"
+                },
+                {
+                    "id": "sv-tec-2",
+                    "phrase": "Vad är lösenordet till Wi-Fi?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "vad är lösenordet till waifai?"
+                },
+                {
+                    "id": "sv-tec-3",
+                    "phrase": "Min telefon fungerar inte.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "min telefon fungerar inte."
+                }
+            ],
+            "health": [
+                {
+                    "id": "sv-hea-1",
+                    "phrase": "Jag mår inte bra.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "jag mor inte bra."
+                },
+                {
+                    "id": "sv-hea-2",
+                    "phrase": "Jag behöver en läkare.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "jag behöver en läkare."
+                },
+                {
+                    "id": "sv-hea-3",
+                    "phrase": "Var ligger apoteket?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "var ligger apoteket?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "sv-mon-1",
+                    "phrase": "Var kan jag växla pengar?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "var kan jag växla pengar?"
+                },
+                {
+                    "id": "sv-mon-2",
+                    "phrase": "Kan jag betala med kreditkort?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "kan jag betala med kreditkort?"
+                },
+                {
+                    "id": "sv-mon-3",
+                    "phrase": "Var ligger närmaste bank?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "var ligger närmaste bank?"
+                }
+            ]
+        },
+
+        "nl": {
+            "arrival": [
+                {
+                    "id": "nl-arr-1",
+                    "phrase": "Waar is het taxi-/bus-/treinstation?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "waar is het taxi/bus/trein-station?"
+                },
+                {
+                    "id": "nl-arr-2",
+                    "phrase": "Hoeveel kost een kaartje naar...?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "hoe-veel kost een kaart-je naar...?"
+                },
+                {
+                    "id": "nl-arr-3",
+                    "phrase": "Ik moet naar... gaan.",
+                    "translation": "I need to go to...",
+                    "pronunciation": "ik moet naar... gaan."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "nl-acc-1",
+                    "phrase": "Ik heb een reservering op naam van...",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "ik hep een re-zer-veer-ing op naam van...?"
+                },
+                {
+                    "id": "nl-acc-2",
+                    "phrase": "Mag ik de kamer zien?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "mag ik de ka-mer zien?"
+                },
+                {
+                    "id": "nl-acc-3",
+                    "phrase": "Hoe laat is het ontbijt?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "hoe laat is het ont-bijt?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "nl-din-1",
+                    "phrase": "Ik ben vegetariër.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "ik ben ve-ge-ta-ri-er."
+                },
+                {
+                    "id": "nl-din-2",
+                    "phrase": "Wat kunt u aanbevelen?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "wat kunt u aan-be-ve-len?"
+                },
+                {
+                    "id": "nl-din-3",
+                    "phrase": "De rekening, alstublieft.",
+                    "translation": "The bill, please",
+                    "pronunciation": "de re-ken-ing, al-stub-lieft."
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "nl-sho-1",
+                    "phrase": "Hoeveel kost dit?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "hoe-veel kost dit?"
+                },
+                {
+                    "id": "nl-sho-2",
+                    "phrase": "Heeft u dit in een andere maat?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "heeft u dit in een an-de-re maat?"
+                },
+                {
+                    "id": "nl-sho-3",
+                    "phrase": "Kan ik met pin betalen?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "kan ik met pin be-taa-len?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "nl-eme-1",
+                    "phrase": "Ik heb hulp nodig.",
+                    "translation": "I need help",
+                    "pronunciation": "ik hep hulp no-dig."
+                },
+                {
+                    "id": "nl-eme-2",
+                    "phrase": "Belt u de politie.",
+                    "translation": "Call the police",
+                    "pronunciation": "belt u de po-lie-tsie."
+                },
+                {
+                    "id": "nl-eme-3",
+                    "phrase": "Waar is het ziekenhuis?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "waar is het zie-ken-huis?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "nl-dir-1",
+                    "phrase": "Waar is de dichtstbijzijnde geldautomaat?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "waar is de dichtst-bij-zijnde gelt-auto-maat?"
+                },
+                {
+                    "id": "nl-dir-2",
+                    "phrase": "Hoe kom ik op het vliegveld?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "hoe kom ik op het vlieg-veld?"
+                },
+                {
+                    "id": "nl-dir-3",
+                    "phrase": "Is het ver hiervandaan?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "is het ver hier-van-daan?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "nl-soc-1",
+                    "phrase": "Hallo.",
+                    "translation": "Hello",
+                    "pronunciation": "hal-lo."
+                },
+                {
+                    "id": "nl-soc-2",
+                    "phrase": "Hoe gaat het met u?",
+                    "translation": "How are you?",
+                    "pronunciation": "hoe gaat het met u?"
+                },
+                {
+                    "id": "nl-soc-3",
+                    "phrase": "Aangenaam kennis te maken.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "aan-ge-naam ken-nis te ma-ken."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "nl-tec-1",
+                    "phrase": "Heeft u Wi-Fi?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "heeft u waai-faai?"
+                },
+                {
+                    "id": "nl-tec-2",
+                    "phrase": "Wat is het Wi-Fi-wachtwoord?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "wat is het waai-faai-wacht-woord?"
+                },
+                {
+                    "id": "nl-tec-3",
+                    "phrase": "Mijn telefoon werkt niet.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "mijn te-le-foon werkt niet."
+                }
+            ],
+            "health": [
+                {
+                    "id": "nl-hea-1",
+                    "phrase": "Ik voel me niet goed.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "ik voel me niet goed."
+                },
+                {
+                    "id": "nl-hea-2",
+                    "phrase": "Ik heb een dokter nodig.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "ik hep een dok-ter no-dig."
+                },
+                {
+                    "id": "nl-hea-3",
+                    "phrase": "Waar is de apotheek?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "waar is de a-po-theek?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "nl-mon-1",
+                    "phrase": "Waar kan ik geld wisselen?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "waar kan ik gelt wis-se-len?"
+                },
+                {
+                    "id": "nl-mon-2",
+                    "phrase": "Kan ik met creditcard betalen?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "kan ik met cre-dit-kaart be-taa-len?"
+                },
+                {
+                    "id": "nl-mon-3",
+                    "phrase": "Waar is de dichtstbijzijnde bank?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "waar is de dichtst-bij-zijnde bank?"
+                }
+            ]
+        },
+
+        "id": {
+            "arrival": [
+                {
+                    "id": "id-arr-1",
+                    "phrase": "Di mana stasiun taksi/bus/kereta?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "dee mah-na sta-si-un tak-si/bus/ke-re-ta?"
+                },
+                {
+                    "id": "id-arr-2",
+                    "phrase": "Berapa harga tiket ke...?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "be-ra-pa har-ga ti-ket ke...?"
+                },
+                {
+                    "id": "id-arr-3",
+                    "phrase": "Saya perlu pergi ke...",
+                    "translation": "I need to go to...",
+                    "pronunciation": "sa-ya per-lu per-gi ke...?"
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "id-acc-1",
+                    "phrase": "Saya punya reservasi atas nama...",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "sa-ya pu-nya re-ser-va-si a-tas na-ma...?"
+                },
+                {
+                    "id": "id-acc-2",
+                    "phrase": "Bolehkah saya melihat kamar?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "bo-leh-kah sa-ya me-li-hat ka-mar?"
+                },
+                {
+                    "id": "id-acc-3",
+                    "phrase": "Jam berapa sarapan?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "jam be-ra-pa sa-ra-pan?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "id-din-1",
+                    "phrase": "Saya seorang vegetarian.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "sa-ya se-o-rang ve-ge-ta-ri-an."
+                },
+                {
+                    "id": "id-din-2",
+                    "phrase": "Apa yang Anda rekomendasikan?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "a-pa yang an-da re-ko-men-da-si-kan?"
+                },
+                {
+                    "id": "id-din-3",
+                    "phrase": "Bisa minta bill-nya?",
+                    "translation": "The bill, please",
+                    "pronunciation": "bi-sa min-ta bil-nya?"
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "id-sho-1",
+                    "phrase": "Berapa harga ini?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "be-ra-pa har-ga i-ni?"
+                },
+                {
+                    "id": "id-sho-2",
+                    "phrase": "Apakah Anda punya ukuran lain?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "a-pa-kah an-da pu-nya u-ku-ran la-in?"
+                },
+                {
+                    "id": "id-sho-3",
+                    "phrase": "Bisakah saya membayar dengan kartu?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "bi-sa-kah sa-ya mem-ba-yar de-ngan kar-tu?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "id-eme-1",
+                    "phrase": "Saya butuh bantuan.",
+                    "translation": "I need help",
+                    "pronunciation": "sa-ya bu-tuh ban-tu-an."
+                },
+                {
+                    "id": "id-eme-2",
+                    "phrase": "Tolong panggil polisi.",
+                    "translation": "Call the police",
+                    "pronunciation": "to-long pang-gil po-li-si."
+                },
+                {
+                    "id": "id-eme-3",
+                    "phrase": "Di mana rumah sakit?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "dee mah-na ru-mah sa-kit?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "id-dir-1",
+                    "phrase": "Di mana ATM terdekat?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "dee mah-na ATM ter-de-kat?"
+                },
+                {
+                    "id": "id-dir-2",
+                    "phrase": "Bagaimana cara saya ke bandara?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "ba-gaimana cha-ra sa-ya ke ban-da-ra?"
+                },
+                {
+                    "id": "id-dir-3",
+                    "phrase": "Apakah ini jauh dari sini?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "a-pa-kah i-ni ja-uh da-ri si-ni?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "id-soc-1",
+                    "phrase": "Halo.",
+                    "translation": "Hello",
+                    "pronunciation": "ha-lo."
+                },
+                {
+                    "id": "id-soc-2",
+                    "phrase": "Apa kabar?",
+                    "translation": "How are you?",
+                    "pronunciation": "a-pa ka-bar?"
+                },
+                {
+                    "id": "id-soc-3",
+                    "phrase": "Senang bertemu dengan Anda.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "se-nang ber-te-mu de-ngan an-da."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "id-tec-1",
+                    "phrase": "Apakah ada Wi-Fi di sini?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "a-pa-kah a-da wa-i-fai dee si-ni?"
+                },
+                {
+                    "id": "id-tec-2",
+                    "phrase": "Apa kata sandi Wi-Fi-nya?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "a-pa ka-ta san-di wa-i-fai-nya?"
+                },
+                {
+                    "id": "id-tec-3",
+                    "phrase": "Telepon saya tidak berfungsi.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "te-le-pon sa-ya ti-dak ber-fung-si."
+                }
+            ],
+            "health": [
+                {
+                    "id": "id-hea-1",
+                    "phrase": "Saya merasa tidak enak badan.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "sa-ya me-ra-sa ti-dak e-nak ba-dan."
+                },
+                {
+                    "id": "id-hea-2",
+                    "phrase": "Saya butuh dokter.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "sa-ya bu-tuh dok-ter."
+                },
+                {
+                    "id": "id-hea-3",
+                    "phrase": "Di mana apotek?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "dee mah-na a-po-tek?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "id-mon-1",
+                    "phrase": "Di mana saya bisa menukar uang?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "dee mah-na sa-ya bi-sa me-nu-kar u-ang?"
+                },
+                {
+                    "id": "id-mon-2",
+                    "phrase": "Bisakah saya menggunakan kartu kredit?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "bi-sa-kah sa-ya me-nggu-na-kan kar-tu kre-dit?"
+                },
+                {
+                    "id": "id-mon-3",
+                    "phrase": "Di mana bank terdekat?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "dee mah-na bank ter-de-kat?"
+                }
+            ]
+        },
+
+        "vi": {
+            "arrival": [
+                {
+                    "id": "vi-arr-1",
+                    "phrase": "Trạm taxi/xe buýt/tàu ở đâu?",
+                    "translation": "Where is the taxi/bus/train station?",
+                    "pronunciation": "chạm taxi/xe buýt/tàu ở đâu?"
+                },
+                {
+                    "id": "vi-arr-2",
+                    "phrase": "Vé đi ... bao nhiêu tiền?",
+                    "translation": "How much is a ticket to...?",
+                    "pronunciation": "vé đi ... bao nhiêu tiền?"
+                },
+                {
+                    "id": "vi-arr-3",
+                    "phrase": "Tôi cần đi đến ...",
+                    "translation": "I need to go to...",
+                    "pronunciation": "tôi cần đi đến ..."
+                }
+            ],
+            "accommodation": [
+                {
+                    "id": "vi-acc-1",
+                    "phrase": "Tôi có đặt phòng dưới tên là ...",
+                    "translation": "I have a reservation under the name...",
+                    "pronunciation": "tôi có đặt phòng dưới tên là ..."
+                },
+                {
+                    "id": "vi-acc-2",
+                    "phrase": "Tôi có thể xem phòng được không?",
+                    "translation": "Can I see the room?",
+                    "pronunciation": "tôi có thể xem phòng được không?"
+                },
+                {
+                    "id": "vi-acc-3",
+                    "phrase": "Mấy giờ có bữa sáng?",
+                    "translation": "What time is breakfast?",
+                    "pronunciation": "mấy giờ có bữa sáng?"
+                }
+            ],
+            "dining": [
+                {
+                    "id": "vi-din-1",
+                    "phrase": "Tôi là người ăn chay.",
+                    "translation": "I am vegetarian",
+                    "pronunciation": "tôi là người ăn chay."
+                },
+                {
+                    "id": "vi-din-2",
+                    "phrase": "Bạn gợi ý món gì?",
+                    "translation": "What do you recommend?",
+                    "pronunciation": "bạn gợi ý món gì?"
+                },
+                {
+                    "id": "vi-din-3",
+                    "phrase": "Làm ơn cho hóa đơn.",
+                    "translation": "The bill, please",
+                    "pronunciation": "làm ơn cho hóa đơn."
+                }
+            ],
+            "shopping": [
+                {
+                    "id": "vi-sho-1",
+                    "phrase": "Cái này bao nhiêu tiền?",
+                    "translation": "How much does this cost?",
+                    "pronunciation": "cái này bao nhiêu tiền?"
+                },
+                {
+                    "id": "vi-sho-2",
+                    "phrase": "Bạn có cái này cỡ khác không?",
+                    "translation": "Do you have this in another size?",
+                    "pronunciation": "bạn có cái này cỡ khác không?"
+                },
+                {
+                    "id": "vi-sho-3",
+                    "phrase": "Tôi có thể thanh toán bằng thẻ được không?",
+                    "translation": "Can I pay by card?",
+                    "pronunciation": "tôi có thể thanh toán bằng thẻ được không?"
+                }
+            ],
+            "emergency": [
+                {
+                    "id": "vi-eme-1",
+                    "phrase": "Tôi cần giúp đỡ.",
+                    "translation": "I need help",
+                    "pronunciation": "tôi cần giúp đỡ."
+                },
+                {
+                    "id": "vi-eme-2",
+                    "phrase": "Gọi cảnh sát.",
+                    "translation": "Call the police",
+                    "pronunciation": "gọi cảnh sát."
+                },
+                {
+                    "id": "vi-eme-3",
+                    "phrase": "Bệnh viện ở đâu?",
+                    "translation": "Where is the hospital?",
+                    "pronunciation": "bệnh viện ở đâu?"
+                }
+            ],
+            "directions": [
+                {
+                    "id": "vi-dir-1",
+                    "phrase": "Máy ATM gần nhất ở đâu?",
+                    "translation": "Where is the nearest ATM?",
+                    "pronunciation": "máy ATM gần nhất ở đâu?"
+                },
+                {
+                    "id": "vi-dir-2",
+                    "phrase": "Làm thế nào để tôi đến sân bay?",
+                    "translation": "How do I get to the airport?",
+                    "pronunciation": "làm thế nào để tôi đến sân bay?"
+                },
+                {
+                    "id": "vi-dir-3",
+                    "phrase": "Chỗ này có xa không?",
+                    "translation": "Is it far from here?",
+                    "pronunciation": "chỗ này có xa không?"
+                }
+            ],
+            "social": [
+                {
+                    "id": "vi-soc-1",
+                    "phrase": "Xin chào.",
+                    "translation": "Hello",
+                    "pronunciation": "xin chào."
+                },
+                {
+                    "id": "vi-soc-2",
+                    "phrase": "Bạn khỏe không?",
+                    "translation": "How are you?",
+                    "pronunciation": "bạn khỏe không?"
+                },
+                {
+                    "id": "vi-soc-3",
+                    "phrase": "Rất vui được gặp bạn.",
+                    "translation": "Nice to meet you",
+                    "pronunciation": "rất vui được gặp bạn."
+                }
+            ],
+            "tech": [
+                {
+                    "id": "vi-tec-1",
+                    "phrase": "Ở đây có Wi-Fi không?",
+                    "translation": "Do you have Wi-Fi?",
+                    "pronunciation": "ở đây có Wi-Fi không?"
+                },
+                {
+                    "id": "vi-tec-2",
+                    "phrase": "Mật khẩu Wi-Fi là gì?",
+                    "translation": "What is the Wi-Fi password?",
+                    "pronunciation": "mật khẩu Wi-Fi là gì?"
+                },
+                {
+                    "id": "vi-tec-3",
+                    "phrase": "Điện thoại của tôi không hoạt động.",
+                    "translation": "My phone isn't working",
+                    "pronunciation": "điện thoại của tôi không hoạt động."
+                }
+            ],
+            "health": [
+                {
+                    "id": "vi-hea-1",
+                    "phrase": "Tôi không cảm thấy khỏe.",
+                    "translation": "I don't feel well",
+                    "pronunciation": "tôi không cảm thấy khỏe."
+                },
+                {
+                    "id": "vi-hea-2",
+                    "phrase": "Tôi cần một bác sĩ.",
+                    "translation": "I need a doctor",
+                    "pronunciation": "tôi cần một bác sĩ."
+                },
+                {
+                    "id": "vi-hea-3",
+                    "phrase": "Hiệu thuốc ở đâu?",
+                    "translation": "Where is the pharmacy?",
+                    "pronunciation": "hiệu thuốc ở đâu?"
+                }
+            ],
+            "money": [
+                {
+                    "id": "vi-mon-1",
+                    "phrase": "Tôi có thể đổi tiền ở đâu?",
+                    "translation": "Where can I exchange money?",
+                    "pronunciation": "tôi có thể đổi tiền ở đâu?"
+                },
+                {
+                    "id": "vi-mon-2",
+                    "phrase": "Tôi có thể dùng thẻ tín dụng không?",
+                    "translation": "Can I use a credit card?",
+                    "pronunciation": "tôi có thể dùng thẻ tín dụng không?"
+                },
+                {
+                    "id": "vi-mon-3",
+                    "phrase": "Ngân hàng gần nhất ở đâu?",
+                    "translation": "Where is the nearest bank?",
+                    "pronunciation": "ngân hàng gần nhất ở đâu?"
                 }
             ]
         }
