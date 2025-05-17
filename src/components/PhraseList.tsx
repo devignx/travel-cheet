@@ -53,7 +53,7 @@ const PhraseList: React.FC = () => {
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                             selectedCategory === category.id
                                 ? "bg-blue-500 text-white"
-                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                : "bg-white text-gray-600 hover:bg-gray-200"
                         }`}
                         onClick={() => setSelectedCategory(category.id)}
                         style={{

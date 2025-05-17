@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 function App() {
     return (
         <AppProvider>
-            <div className="min-h-screen bg-gray-50">
+            <div className="min-h-screen ">
                 <Header />
                 <Home />
                 <Footer />

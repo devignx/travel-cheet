@@ -1,4 +1,4 @@
-import { ArrowLeft, Home } from "lucide-react";
+import { ArrowLeft, GithubIcon } from "lucide-react";
 import React from "react";
 import { useAppContext } from "../context/AppContext";
 
@@ -11,11 +11,11 @@ const Header: React.FC = () => {
     if (selectedLanguage && selectedCategory) {
         title = selectedCategory.name;
     } else if (selectedLanguage) {
-        title = `${selectedLanguage.name} Phrases`;
+        title = ` ${selectedLanguage.flag} ${selectedLanguage.name} Phrases`;
     }
 
     return (
-        <header className="sticky w-full top-0 z-10 bg-white shadow-sm">
+        <header className="sticky w-yfull top-0 z-10 bg-white shadow-sm">
             <div className="container mx-auto px-4 py-3 flex items-center">
                 {selectedLanguage || selectedCategory ? (
                     <button
@@ -32,22 +32,19 @@ const Header: React.FC = () => {
                     {!selectedLanguage && !selectedCategory && (
                         <>
                             <br />
-                            <span className="text-gray-500 text-xs">
+                            <span className="text-gray-400 font-medium text-xs">
                                 Your INTL travel Cheat Sheet
                             </span>
                         </>
                     )}
                 </h1>
 
-                {selectedLanguage || selectedCategory ? (
-                    <button
-                        onClick={resetSelections}
-                        className="ml-auto p-2 rounded-full hover:bg-gray-100"
-                        aria-label="Go to home"
-                    >
-                        <Home size={20} />
-                    </button>
-                ) : null}
+                <a
+                    href="https://github.com/devignx/travel-cheet"
+                    target="_blank"
+                >
+                    <GithubIcon size={20} />
+                </a>
             </div>
         </header>
     );
